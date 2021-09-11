@@ -101,6 +101,7 @@ header .left h1 a{
     font-weight: 700;
 }
 header .nav{
+    width: 100%;
 }
 header .nav ul{
     display:flex;
@@ -138,7 +139,6 @@ header .slidebar span.close{
     transition: all 1s ease;
     transition-delay: 2s;
 }
-.
 header .slidebar span.close.active{
     display: block;
     
@@ -425,7 +425,7 @@ header .right .phn .nmbr h5{
     justify-content:space-between;
 }
 #teachers .bottom .widget{
-    width: 23% !important;
+    width: 23%;
 }
 #teachers .bottom .widget .chr{
     width: 100%;
@@ -553,19 +553,19 @@ header .right .phn .nmbr h5{
     background-color: #5ccb8e;
 }
 .slick-next{
-    background:#42526E !important;
+    background:#42526E;
     padding:5px;
-    right:50% !important;
-    top:100% !important;
+    right:50%;
+    top:100% ;
 }
 .slick-list {
-    padding: 50px 0 !important;
+    padding: 50px 0;
 }
 .slick-prev{
-    background:#42526E !important;
+    background:#42526E ;
     padding:5px;
-    top:100% !important;
-    left:45% !important;
+    top:100% ;
+    left:45% ;
 }
 #review{
     padding-top: 80px;
@@ -637,10 +637,10 @@ header .right .phn .nmbr h5{
     display: flex;
 }
 #contact .left{
-    width: 50% !important;
+    width: 50% ;
 }
 #contact .left form{
-    width: 100%;
+    width: 20%;
 }
 #contact .left form h3{
     color:#fff;
@@ -683,7 +683,7 @@ header .right .phn .nmbr h5{
     margin-top: 10px;
 }
 #contact .right{
-    width: 50% !important;
+    width: 50% ;
 }
 #contact .right img{
     width: 100%;
@@ -699,7 +699,7 @@ footer .wrapper{
     justify-content: space-between;
 }
 footer .left{
-    width: 20% !important;
+    width: 20% ;
 }
 footer .left .ltop{
 
@@ -727,7 +727,7 @@ footer .left .lbottom p{
     color: #676565;
 }
 footer .center{
-    width: 25% !important;
+    width: 25% ;
 }
 footer .center .ctop{
 
@@ -780,7 +780,7 @@ footer .center .cbottom a:hover:after{
     transition: .4s ease;
 }
 footer .right{
-    width: 20% !important;
+    width: 20% ;
 }
 footer .right h3{
     font-size: 22px;
@@ -790,7 +790,7 @@ footer .right form{
     width: 100%;
 }
 footer .right form input#femail{
-    width: 1000% !important;
+    width: 100% !importan;
     margin-top: 24px;
     border-bottom: 1px dotted #fff;
     color: #fff;
@@ -810,7 +810,6 @@ footer .right form input[type="submit"]{
     #courses .left {
         margin-bottom: 35px;
         width: 86%;
-    }
     }
     #courses .right form{
         margin:0 auto;
@@ -863,6 +862,9 @@ footer .right form input[type="submit"]{
     footer .right form input#femail{
         padding-bottom: 8px;
     }
+    #contact .left form{
+        width: 100%;
+    }
     footer .right form input[type="submit"]{
         padding: 14px 138px;
         font-size: 18px;
@@ -877,8 +879,15 @@ footer .right form input[type="submit"]{
     header .nav{
         display: none;
     }
+    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+        background:#252020;
+        color:#fff;
+    }
     header .right{
         display: none;
+    }
+    header .clr {
+        display:none;
     }
     header .hamb{
         display: block;
@@ -895,6 +904,7 @@ footer .right form input[type="submit"]{
     #courses .right form{
         border-radius: 0% !important;
     }
+    
     #feature .container  {
         flex-wrap: wrap;
     }
@@ -907,6 +917,9 @@ footer .right form input[type="submit"]{
     }
     footer .left {
         width: 54%;
+    }
+    header .nav{
+        display:none;
     }
 }
 @media all and (max-width:480px){
