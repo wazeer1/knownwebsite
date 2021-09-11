@@ -42,7 +42,7 @@ $('.multiple-items').slick({
     {
       breakpoint: 640,
       settings: {
-        arrows: true,
+        arrows: false,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1
